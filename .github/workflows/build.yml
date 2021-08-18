@@ -8,6 +8,9 @@ on:
       - master
   release:
     types: released
+  workflow_run:
+    branches:
+      - master
 
 jobs:
   build:
